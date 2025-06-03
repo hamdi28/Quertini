@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
-import 'package:flutter_mvvm_stacked/core/viewmodels/counter_viewmodel.dart';
+import 'package:quertini/core/viewmodels/counter_viewmodel.dart';
 
 class CounterView extends StatelessWidget {
   const CounterView({Key? key}) : super(key: key);
