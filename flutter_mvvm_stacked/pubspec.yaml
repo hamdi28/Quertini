@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   stacked: ^3.4.4
   stacked_services: ^1.6.0
+  shared_preferences: ^2.2.3
+  pretty_qr_code_plus: ^0.0.1
 
 dev_dependencies:
   flutter_test:

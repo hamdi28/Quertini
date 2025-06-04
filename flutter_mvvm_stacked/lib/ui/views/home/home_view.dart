@@ -25,6 +25,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<HomeViewModel>.reactive(
       viewModelBuilder: () => HomeViewModel(),
+      onViewModelReady: (model) => model.initialise(), // Call initialise here
       builder: (context, model, child) => Scaffold(
         body: getViewForIndex(model.currentIndex), // currentIndex from IndexTrackingViewModel
         bottomNavigationBar: BottomNavigationBar(
